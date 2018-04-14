@@ -13,19 +13,23 @@ The development of this analyzer should be divided into the following phases (to
   - Readibility
 
 2. Block-level analysis
-  - Repeated lines of code / patterns
+  - Repeated groups of code / patterns
   - Comparison / flow control
 
 3. Function-level analysis
   - Reduce recursion
   - Modularity
 
-4. Basic, code efficiency analysis
+4. Class-level analysis
+  - Hidden fields, methods
+  - Not necessarily applicable to some programming languages
+
+5. Basic, code efficiency analysis
   - Static components, string comparison, string construction, etc.
 
-5. Pattern-level analysis
+6. Pattern-level analysis
   - Dependency between roles (objects)
-  - Not necessarily applicable to some programming language
+  - Not necessarily applicable to some programming languages
 
 Target:
 - This analyzer should support the following programming / scripting languages:
