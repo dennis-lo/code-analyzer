@@ -1,0 +1,32 @@
+The development of this analyzer will be divided into the following phases (to be revised):
+
+0. Clean-up
+	- Trailing whitespace
+	- Style
+
+1. Statement-level analysis
+	- Dead statements
+	- Simplification
+	- Readibility
+
+2. Block-level analysis
+	- Repeated groups of code / patterns
+	- Comparison / flow control
+
+3. Function-level analysis
+	- Reduce recursion
+	- Modularity
+	- Dependency between functions
+
+4. Class-level analysis
+	- Hidden fields, methods
+	- Not necessarily applicable to some programming languages
+
+5. Basic, code efficiency analysis
+	- Static components, string comparison, string construction, etc.
+
+6. Pattern-level analysis
+	- Dependency between roles (objects)
+	- Not necessarily applicable to some programming languages
+
+Implementation, front-end framework, etc.
