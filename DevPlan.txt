@@ -30,3 +30,7 @@ The development of this analyzer will be divided into the following phases (to b
 	- Not necessarily applicable to some programming languages
 
 Implementation, front-end framework, etc.
+
+Requirements:
+	- This analyzer should be able to run locally without the necessity of accessing the Internet.
+	- To be defined
